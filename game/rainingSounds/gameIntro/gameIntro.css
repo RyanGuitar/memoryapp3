@@ -1,0 +1,35 @@
+#AppContainer {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+#AppContent {
+  text-align: justify;
+  width:90vw;
+}
+#heading {
+  font-size:2rem;
+  padding-bottom:1rem;
+}
+p {
+  padding-bottom:0.5rem;
+  font-size: 1rem;
+}
+#back, #next {
+  float:left;
+  padding-top:1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#next {
+  float:right;
+}
+@media screen and (orientation:landscape){
+  #AppContent {
+    width:50vw;
+  }
+}
+
+

@@ -1,0 +1,70 @@
+#AppContainer {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+#AppContent, #popup {
+  text-align: justify;
+  width:90vw;
+}
+#popup {
+  display:block;
+  margin:auto;
+  width:60vw;
+}
+#heading {
+  font-size:2rem;
+  padding-bottom:1rem;
+}
+p {
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+  font-size: 1rem;
+}
+#back, #next {
+  float:left;
+  padding-top:1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#next {
+  float:right;
+}
+
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  font-size: 1.2rem;
+  padding:10px 0;
+}
+b {
+  font-size: 1.3rem;
+}
+#hint, .number {
+  text-align: center;
+  border:1px solid white;
+  background-color: black;
+  color:white;
+}
+/*#popup {
+  display:flex;
+  flex-direction: column;
+  text-align: justify;
+  width:60vw;
+  height:auto;
+}*/
+
+@media screen and (orientation:landscape){
+  #AppContent {
+    width:50vw;
+  }
+ /* #popup {
+    width:50vw;
+  }*/
+}
