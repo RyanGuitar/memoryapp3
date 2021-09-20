@@ -6,7 +6,7 @@ function setGameMenu(){
           const gameMenuHTML =
         `<div id="heading">Game Menu</div>
           <div id="menu">
-            <div id="rainingGame">Raining Sounds</div>
+            <div id="rainingGame">Growing Sounds</div>
             <div id="mainMenu"><b>Main Menu</b></b>
           </div>`
         

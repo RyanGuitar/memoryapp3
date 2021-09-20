@@ -28,3 +28,9 @@ export {
 export {
   setGameLanding,
 } from '../game/rainingSounds/gameLanding/gameLanding.js'
+export {
+  setRainGame,
+} from '../game/rainingSounds/game/game.js'
+export {
+  rainData,
+} from '../game/rainingSounds/game/data.js'

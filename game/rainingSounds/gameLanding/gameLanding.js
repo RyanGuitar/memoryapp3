@@ -1,6 +1,6 @@
 function setGameLanding(){
 import('../../../scripts/aggregator.js')
-    .then(({elAdd, addClickId, setMenu, setBasics}) => {
+    .then(({elAdd, addClickId, setRainGame}) => {
       import('./gameLanding.css', {assert: {type:'css'}})
       .then(gameLanding => {
         const gameLandingHTML =
@@ -10,7 +10,7 @@ import('../../../scripts/aggregator.js')
       </div>`
 
       elAdd(AppContent, gameLandingHTML)
-       addClickId('start', () => alert('start game'))
+       addClickId('start', setRainGame)
        document.adoptedStyleSheets = [gameLanding.default]; 
       })
       .catch(err => {

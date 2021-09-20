@@ -1,0 +1,63 @@
+#AppContent {
+    width:100vw;
+    height:100vh;
+}
+#score {
+    padding-top:1rem;
+    text-align: center;
+    display:block;
+}
+#rank {
+    padding-top:1rem;
+    padding-right: 1rem;
+    text-align: center;
+    display:block;
+}
+#sounds {
+    display:flex;
+    align-items: center;
+    width:100vw;
+    height:60vh;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center space-between;
+    justify-content: flex-start;
+}
+#sounds div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color:white;
+    border:1px solid black;
+    width:5vw;
+    padding:1.5rem;
+}
+#message {
+    padding-top:1rem;
+    display:block;
+    text-align: center;
+}
+#buttons {
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    place-content: center space-between;
+    flex-wrap: wrap;
+}
+#buttons button {
+    font-size: 1.5rem;
+    padding:0.5rem;
+    width:20vw;
+}
+#buttons button:hover {
+    background-color: blue;
+    color:white;
+}
+.hide {
+    display:none;
+}
